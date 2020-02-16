@@ -61,9 +61,12 @@
     border: 0
 .intro__image,
 .work__image
+    max-width: 100%
     width: 824px
     height: 428px
     margin: 0 auto
+    img
+        max-width: 100%
 /*Companies*/ 
 .companies
     margin-bottom: 179px
@@ -91,6 +94,8 @@
     text-align: center
 .expertise__item-image
     margin-bottom: 32px
+    img
+        max-width: 100%
 .expertise__item-category
     font-size: 24px
     line-height: 30px
@@ -130,6 +135,8 @@
 .communication__image
     text-align: center
     padding-bottom: 64px
+    img
+        max-width: 100%  
 /*Work*/    
 .work
     margin-bottom: 192px
@@ -159,8 +166,13 @@
     height: 24px
     margin-left: 24px
     
-    
-    
+@media(max-width: 769px)
+    .companies__inner
+        img
+            width: 100%
+            margin-bottom: 30px
+            padding: 30px
+            max-width: 100%
     
     
     
